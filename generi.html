@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMesh</title>
+    <link rel="icon" href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\icona sito (2).png" type="image/x-icon" class="rounded-icona-sito">    <link rel="stylesheet" href="generi.css">
+</head>
+<body>
+    <div id="prova">
+      <div id="menu-fisso">
+          <div id="nome-sito">
+              <a href="C:\Users\michele pagano\Desktop\compito pollio\italiano\filehtml\index.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\ELODY.png" alt="png" id="logo"></a>
+          </div>
+      </div>
+    </div>
+    <button id="stopButton">Stop Animation</button>
+    <div class="container">
+        <div class="moving-rectangle"><p>Hip Hop</p></div>
+        <div class="moving-rectangle"><p>Pop</p></div>
+        <div class="moving-rectangle"><p>Rock</p></div>
+        <div class="moving-rectangle"><p>Jazz</p></div>
+        <div class="moving-rectangle"><p>Country</p></div>
+        <div class="moving-rectangle"><p>Blues</p></div>
+        <div class="moving-rectangle"><p>Electronic</p></div>
+        <div class="moving-rectangle"><p>R&B</p></div>
+        <div class="moving-rectangle"><p>Raggae</p></div>
+        <div class="moving-rectangle"><p>Classical</p></div>
+        <div class="moving-rectangle"><p>Punk</p></div>
+        <div class="moving-rectangle"><p>Metal</p></div>
+        <div class="moving-rectangle"><p>Folk</p></div>
+        <div class="moving-rectangle"><p>Indie</p></div>
+        <div class="moving-rectangle"><p>Rap</p></div>
+        <div class="moving-rectangle"><p>Techno</p></div>
+        <div class="moving-rectangle"><p>Latin</p></div>
+        <div class="moving-rectangle"><p>Flamenco</p></div>
+        <div class="moving-rectangle"><p>Trap</p></div>
+        <div class="moving-rectangle"><p>Tango</p></div>
+      </div>
+      <script>
+        const movingRectangles = document.querySelectorAll('.moving-rectangle');
+        const stopButton = document.getElementById('stopButton');
+        let animationPaused = false;
+    
+        stopButton.addEventListener('click', () => {
+          animationPaused = !animationPaused;
+          movingRectangles.forEach(rectangle => {
+            rectangle.style.animationPlayState = animationPaused ? 'paused' : 'running';
+          });
+        });
+        
+      </script>
+</body>
+</html>

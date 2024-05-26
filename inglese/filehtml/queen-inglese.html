@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMesh</title>
+    <link rel="icon" href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\icona sito (2).png" type="image/x-icon" class="rounded-icona-sito">    <link rel="stylesheet" href="../filecss/queen-inglese.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-... (integrity value) ..." crossorigin="anonymous">
+</head>
+<body>
+    <div id="impostazioni" class="impostazioni1" onclick="impostazioni(this)">
+        <div class="pulsante">
+            <span class="linee" id="linea1"> 
+
+            </span>
+            <span class="linee" id="linea2"> 
+
+            </span>
+            <span class="linee" id="linea3" >
+                
+            </span>
+        </div>
+        <div id="scelte" class="scelte1">
+            <a href="file:///C:/Users/michele%20pagano/Desktop/compito%20pollio/italiano/filehtml/queen.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\2.png" alt="" class="icone"></a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\pagina.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\1.png" alt="" class="icone"></a>
+        </div>
+    </div>
+    <div id="menu-fisso">
+        <div id="nome-sito">
+            <a href="index-inglese.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\ELODY.png" alt="png" id="logo"></a>
+        </div>
+        <div id="pulsanti">
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\generi.html" class="opzioni">genres</a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\band.html" class="opzioni">singers</a>
+        </div>
+    </div>
+    <div id="pinkfloyd">
+        <div id="selezioni">
+            <a href="index-inglese.html" class="link">
+                come back
+            </a>
+            <a href="" class="link" id="condividi">
+                share
+            </a>
+        </div>
+    </div>
+    <div id="presentazione">
+        <img src="https://www.artezetastudio.it/kimg/900/IMG_6717.jpg" alt="jpg" id="batterista">
+        <h1 id="titolo">I QUEEN</h1>
+    </div>
+    <div id="pink">
+        <a href="../filehtml/storia.html" class="scelte" id="scelta1">
+            <p>description</p>
+        </a>
+    </div>
+    <div id="contenitore">
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.1 Genesis of a Legend</h2>
+            <div class="box">
+            <p class="testo">
+                The epic beginning of Queen in London in 1970 and the formation of the powerhouse team of Freddie Mercury, Brian May, Roger Taylor, and John Deacon. A journey through the musical experiments of the early years that shaped their unmistakable sound.
+            </p>
+            <img src="https://ips.plug.it/cips/supereva/cms/2019/02/freddie-mercury.jpg" alt="jpg">
+            </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.2 Bohemian Rhapsody and Beyond</h2>
+            <div class="box">
+            <p class="testo">
+                The golden era when Queen dominated the global music scene. From "Sheer Heart Attack" to "News of the World," they explored uncharted territories, culminating in the epic "Bohemian Rhapsody" and other indelible hits.
+            </p>
+            <video src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\video-queen1.mp4" controls></video>
+            </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.3 Epic Stage, Universal Anthems</h2>
+            <div class="box">
+            <p class="testo">
+                The '80s saw Queen solidify their position with albums like "The Game" and "A Kind of Magic." Their live presence became legendary, gifting the world anthems like "We Will Rock You" and "We Are the Champions."
+            </p>
+            <video src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\video-queen2.mp4" controls></video>            
+        </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.4 Immortal Legacy</h2>
+            <div class="box">
+            <p class="testo">
+                After the loss of Freddie Mercury, Queen did not lose their brilliance. Through collaborations and extraordinary performances, the surviving members preserved and expanded Queen's legacy, confirming their eternal greatness in the history of music.
+            </p>
+            <img src="https://www.ondamusicale.it/wp-content/uploads/2016/12/queen.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        function impostazioni(ClickedLine) {
+    const linea1 = document.getElementById('linea1');
+    const linea2 = document.getElementById('linea2');
+    const linea3 = document.getElementById('linea3');
+    const scelte = document.getElementById('scelte');
+    const impostazioni= document.getElementById('impostazioni')
+
+    linea1.classList.toggle('linea1-ruotata');
+    linea2.classList.toggle('linea2-ruotata');
+    linea3.classList.toggle('linea3-ruotata');
+    scelte.classList.toggle('scelte1-dopo');
+    impostazioni.classList.toggle('impostazioni1-dopo')
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMesh</title>
+    <link rel="icon" href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\icona sito (2).png" type="image/x-icon" class="rounded-icona-sito">    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <div id="contenitore2">
+        <div id="login">
+            <div id="titolo">
+                <h1>Login</h1>
+            </div>
+            <form action="">
+                <p class="label">Email</p>
+                <div class="testo">
+                    <input type="text" name="text1" class="casella">
+                </div>
+                <p class="label">Password</p>
+                <div class="testo" >
+                    <input type="password" name="text2" class="casella">
+                </div>
+            </form>    
+            <div id="opzioni">
+                <form action="" id="pulsanti1">
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox" class="pulsanti">remember me</label>    
+                </form>
+                   
+                <a href="#" class="pulsanti">forgot password</a>
+            </div>
+                
+            <div class="botton">
+                <a href="../italiano/filehtml/index.html" class="scritta"><button class="login">log in</button></a>            </div>
+        </div>
+        <div id="register">
+            <div id="titolo">
+                <h1>Register</h1>
+            </div>
+            <form action="">
+                <p class="label">Email</p>
+                <div class="testo">
+                    <input type="text" name="text1" class="casella">
+                </div>
+                <p class="label">Password</p>
+                <div class="testo" >
+                    <input type="password" name="text2" class="casella">
+                </div>
+                <p class="label">Repeat Password</p>
+                <div class="testo" >
+                    <input type="password" name="text3" class="casella">
+                </div>
+            </form>    
+        
+            <div class="botton">
+                <a href="../italiano/filehtml/index.html" class="scritta"><button class="login">sign in</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="contenitore1" class="contenitore"></div>
+    <div id="accesso1" class="accesso">
+        <div class="testata" class="accesso">
+            <h1 class="titolo" class="accesso">Hello friends</h1>
+            <p class="sottotitolo" class="accesso">if you already have an account login here and have fun</p>
+        </div>
+        <button class="bottone" onclick="Switch(this)" class="accesso">Login</button>
+    </div>
+    <div id="registrazione1" class="registrazione">
+        <div class="testata">
+            <h1 class="titolo">Start your journey now</h1>
+            <p class="sottotitolo">if you don't have an account yet. join us and start your journey</p>
+        </div>
+        <button class="bottone" onclick="Switch(this)">Register</button>
+    </div>
+
+    <script>
+        function Switch(ClickedLine) {
+        const accesso1=document.getElementById('accesso1');
+        const registrazione1=document.getElementById('registrazione1');
+        const contenitore1=document.getElementById('contenitore1');
+
+        accesso1.classList.toggle('accesso1-dopo');
+        registrazione1.classList.toggle('registrazione1-dopo');
+        contenitore1.classList.toggle('contenitore1-dopo');
+}
+    </script>
+</body>
+</html>

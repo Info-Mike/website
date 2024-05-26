@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMesh</title>
+    <link rel="icon" href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\icona sito (2).png" type="image/x-icon" class="rounded-icona-sito">    <link rel="stylesheet" href="../filecss/considerazioni.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-... (integrity value) ..." crossorigin="anonymous">
+</head>
+<body>
+    <div id="impostazioni" class="impostazioni1" onclick="impostazioni(this)">
+        <div class="pulsante">
+            <span class="linee" id="linea1"> 
+
+            </span>
+            <span class="linee" id="linea2"> 
+
+            </span>
+            <span class="linee" id="linea3" >
+                
+            </span>
+        </div>
+        <div id="scelte" class="scelte1">
+            <a href="file:///C:/Users/michele%20pagano/Desktop/compito%20pollio/inglese/filehtml/considerazioni-inglese.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\3.png" alt="" class="icone"></a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\pagina.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\1.png" alt="" class="icone"></a>
+        </div>
+    </div>
+    <div id="menu-fisso">
+        <div id="nome-sito">
+            <a href="../filehtml/index.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\ELODY.png" alt="png" id="logo"></a>
+        </div>
+        <div id="pulsanti">
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\generi.html" class="opzioni">generi</a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\band.html" class="opzioni">cantanti</a>
+        </div>
+    </div>
+    <div class="pinkfloyd">
+        <div id="selezioni">
+            <a href="../filehtml/index.html" class="link">
+                torna indietro
+            </a>
+            <a href="" class="link" id="condividi">
+                condividi
+            </a>
+            <img class="foto-pinkfloyd" src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\band.jpg" alt="">
+        </div>
+    </div>
+    <div id="presentazione">
+        <img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\batterista.jpg" alt="jpg" id="batterista">
+        <h1 id="titolo">I PINK FLOYD</h1>
+    </div>
+    <div id="pink">
+        <a href="../filehtml/storia.html" class="scelte" id="scelta1">
+            <p>storia</p>
+        </a>
+        <a href="../filehtml/componenti.html" class="scelte" id="scelta2">
+            <p>componenti</p>
+        </a>
+        <a href="../filehtml/brani.html" class="scelte" id="scelta3">
+            <p>brani</p>
+        </a>
+        <a href="../filehtml/considerazioni.html" class="scelte" id="scelta4">
+            <p>considerazioni</p>
+        </a>
+    </div>
+    <div id="contenitore">
+            <p class="testo">
+                La composizione dei Pink Floyd fa chiari riferimenti alle emozioni che ciascuno di noi sperimenta quotidianamente, non solo in relazione ai giovani che si trovano ancora sulla strada dell'istruzione, ma piuttosto alle persone che, dopo averla completata, affrontano la vita, sostenendo il peso delle responsabilità e preservando la propria indipendenza.
+                <br><br>
+                Alcuni riescono a farlo attraverso un viaggio, esplorando il mondo che li circonda, altri confidano nella fortuna, mentre alcuni cercano conforto in sostanze che, purtroppo, conducono solo a ulteriori sofferenze.
+                <br><br>
+                Questo non si riferisce solamente a droghe, alcol e fumo, ma anche agli strumenti quotidiani come il telefono o i videogiochi, che possono diventare vere e proprie dipendenze, situazioni che costringono chi sta soffrendo a costruire una barriera intorno a sé, concentrandosi maggiormente sulla dipendenza e impedendo agli altri di offrire aiuto.
+                <br><br>
+                Le dipendenze, insieme ad altri problemi della vita come le pressioni sociali e i fallimenti, vengono, a mio parere, rappresentate nella canzone tramite la scena del ragazzo colpito dalla febbre. La morte del fratello, d'altra parte, simboleggia le perdite e i dolori dai quali nessuna persona può sfuggire.
+                <br><br>
+                Tuttavia, secondo me, questo rappresenta la vita stessa, che, nonostante le sue sfaccettature negative, ci forgia e ci rende ciò che desideriamo essere.
+            </p>
+    </div> 
+    <script>
+        const messaggio="Avviso: Il seguente testo è un'interpretazione e un completamento soggettivo basato sulla prospettiva e sulle opinioni personali dell'autore. Le percezioni e le analisi qui presentate riflettono un punto di vista individuale e potrebbero variare in base alle esperienze e alle prospettive degli altri lettori.";
+        alert(messaggio)
+        function impostazioni(ClickedLine) {
+        const linea1 = document.getElementById('linea1');
+        const linea2 = document.getElementById('linea2');
+        const linea3 = document.getElementById('linea3');
+        const scelte = document.getElementById('scelte');
+        const impostazioni= document.getElementById('impostazioni')
+
+        linea1.classList.toggle('linea1-ruotata');
+        linea2.classList.toggle('linea2-ruotata');
+        linea3.classList.toggle('linea3-ruotata');
+        scelte.classList.toggle('scelte1-dopo');
+        impostazioni.classList.toggle('impostazioni1-dopo')
+        }
+
+    </script> 
+</body>
+</html>

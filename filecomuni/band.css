@@ -1,0 +1,234 @@
+@keyframes moveSquare {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(300px);
+  }
+  50% {
+    transform: translateX(2200px) translateY(300px);
+  }
+  55% {
+    transform: translateX(2200px) translateY(0);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@300;400&family=Titillium+Web:ital,wght@1,300;1,600&display=swap');
+
+body{
+  background-color: #2b2d42;
+  transition: all;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#menu-fisso{
+  margin-top: -25px;
+  width: 1900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#prova{
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  width: 300px;
+}
+
+#nome-sito{
+  height: 135px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: #edf2f4;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;;
+  border-radius: 5px;
+  transition: 0.2s ease ;
+}
+
+a:hover{
+  color: #2b2d42;
+  background-color: #edf2f4;
+}
+
+.opzioni{
+  font-size: 22px;
+  padding-top: 10px;
+  padding: 10px 30px;
+}
+
+#stopButton{
+  background-color: #edf2f4;
+  color: #2b2d42;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  left: -300px;
+  top: -50px;
+  width: 2000px;
+  height: 450px;
+  margin: 50px auto;
+}
+
+.moving-rectangle {
+  width: 200px;
+  height: 285px;
+  background-color: blue;
+  position: absolute;
+  animation: moveSquare 14s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 24px;
+  color: #edf2f4;
+}
+
+p{
+  text-align: center;
+  width: 100%;
+  height: 34px;
+  color: #2b2d42;
+  background-color: #edf2f4;
+  padding: 5px;
+}
+
+.moving-rectangle:nth-child(1) {
+  background: url(https://img.redbull.com/images/c_crop,x_90,y_0,h_526,w_420/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2018/01/19/f973b9e6-c2ce-4c6b-995f-ab46d82e23e2/sfera_ebbasta);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(2) {
+  animation-delay: 0.7s;
+  background: url(https://hips.hearstapps.com/hmg-prod/images/annalisa-scarrone-biografia-chi-e-canzoni-musica-mon-amour-64d0df4ad9b3c.png);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(3) {
+  animation-delay: 1.4s;
+  background: url(https://www.datocms-assets.com/38011/1654270863-fcb8f345-9cec-4c0e-b357-cf9fc2c6045f.jpeg?auto=format&fit=max&w=1200);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(4) {
+  animation-delay: 2.1s;
+  background: url(https://static.wixstatic.com/media/4c81cf_2475e3a51b7349eeb491e2a6734b14a2~mv2.jpg/v1/fill/w_549,h_680,al_c,q_85,enc_auto/4c81cf_2475e3a51b7349eeb491e2a6734b14a2~mv2.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(5) {
+  animation-delay: 2.8s;
+  background: url(https://www.rollingstone.it/wp-content/uploads/2023/05/BabyGang_verticali3.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(6) {
+  animation-delay: 3.5s;
+  background: url(https://www.giffonifilmfestival.it/media/k2/items/cache/445ac22e738227fda562d2d1e6fc6680_XL.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(7) {
+  animation-delay: 4.2s;
+  background: url(https://cdn.cnn.com/cnn/interactive/2018/11/opinions/queen-live-aid-cnnphotos/media/05.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(8) {
+  animation-delay: 4.9s;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Elvis_Presley_-_Modern_Screen%2C_June_1958.jpg/1200px-Elvis_Presley_-_Modern_Screen%2C_June_1958.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(9) {
+  animation-delay: 5.6s;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(10) {
+  animation-delay: 6.3s;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%281%29.png/1200px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%281%29.png);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(11) {
+  animation-delay: 7s;
+  background: url(https://www.wonderwall.com/wp-content/uploads/sites/2/2020/06/shutterstock_editorial_10543469az.jpg?x=514&y=800&icq=74&sig=639b09155acfa34ee0f71886a1556c55);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(12) {
+  animation-delay: 7.7s;
+  background: url(https://quotlr.com/images/authors/20380-travis_scott.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(13) {
+  animation-delay: 8.4s;
+  background: url(https://biografieonline.it/img/bio/l/Lazza.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(14) {
+  animation-delay: 9.1s;
+  background: url(http://www.aceshowbiz.com/images/wennpic/wenn3123840.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(15) {
+  animation-delay: 9.8s;
+  background: url(https://www.hawtcelebs.com/wp-content/uploads/2019/12/billie-eilish-in-variety-december-2019-6.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(16) {
+  animation-delay: 10.5s;
+  background: url(https://images4.fanpop.com/image/photos/16200000/justin-bieber-justin-bieber-16255768-1897-2560.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(17) {
+  animation-delay: 11.2s;
+  background: url(https://m.media-amazon.com/images/M/MV5BODI4NTkxOTkxMV5BMl5BanBnXkFtZTgwMzE0MDEzMTE@._V1_.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(18) {
+  animation-delay: 11.9s;
+  background: url(https://i.scdn.co/image/ab6761610000e5eb41e4a3b8c1d45a9e49b6de21);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(19) {
+  animation-delay: 12.6s;
+  background: url(https://www.vertigo.co.it/wp-content/uploads/2022/04/imagindragons_artista.jpg);
+  background-size: cover;
+}
+
+.moving-rectangle:nth-child(20) {
+  animation-delay: 13.3s;
+  background: url(https://images.mid-day.com/images/images/2023/jun/btsnew7shorts_ws.jpg);
+  background-size: cover;
+}
+
+
+.l1:nth-child(even){
+  margin-right: 30px;
+  margin-left: 30px;
+}

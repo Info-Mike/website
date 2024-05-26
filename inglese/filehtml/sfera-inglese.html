@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMesh</title>
+    <link rel="icon" href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\icona sito (2).png" type="image/x-icon" class="rounded-icona-sito">    <link rel="stylesheet" href="../filecss/sfera-inglese.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-... (integrity value) ..." crossorigin="anonymous">
+</head>
+<body>
+    <div id="impostazioni" class="impostazioni1" onclick="impostazioni(this)">
+        <div class="pulsante">
+            <span class="linee" id="linea1"> 
+
+            </span>
+            <span class="linee" id="linea2"> 
+
+            </span>
+            <span class="linee" id="linea3" >
+                
+            </span>
+        </div>
+        <div id="scelte" class="scelte1">
+            <a href="file:///C:/Users/michele%20pagano/Desktop/compito%20pollio/italiano/filehtml/sfera.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\2.png" alt="" class="icone"></a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\pagina.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\1.png" alt="" class="icone"></a>
+        </div>
+    </div>
+    <div id="menu-fisso">
+        <div id="nome-sito">
+            <a href="index-inglese.html"><img src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\ELODY.png" alt="png" id="logo"></a>
+        </div>
+        <div id="pulsanti">
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\generi.html" class="opzioni">genres</a>
+            <a href="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\band.html" class="opzioni">singers</a>
+        </div>
+    </div>
+    <div id="pinkfloyd">
+        <div id="selezioni">
+            <a href="index-inglese.html" class="link">
+                come back
+            </a>
+            <a href="" class="link" id="condividi">
+                share
+            </a>
+        </div>
+    </div>
+    <div id="presentazione">
+        <img src="https://brand-news.it/wp-content/uploads/2020/01/Sfera-Ebbasta-600x400.jpg" alt="jpg" id="batterista">
+        <h1 id="titolo">SFERA EBBASTA</h1>
+    </div>
+    <div id="pink">
+        <a href="../filehtml/storia.html" class="scelte" id="scelta1">
+            <p>description</p>
+        </a>
+    </div>
+    <div id="contenitore">
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.1 Sfera Ebbasta: The Phenomenon of Italian Trap</h2>
+            <div class="box">
+            <p class="testo">
+                Sfera Ebbasta is a renowned Italian rapper, born on December 7, 1992, in Sesto San Giovanni, Milan, with the name Gionata Boschetti. Raised in a family of Sardinian origins, Sfera quickly gained popularity in the Italian music scene thanks to his unique and cutting-edge style, which has helped define the country's trap scene.
+            </p>
+            <img src="https://www.rollingstone.it/wp-content/uploads/2018/02/Sferaebbasta.jpg" alt="jpg">
+            </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.2 The Rise in the World of Trap</h2>
+            <div class="box">
+            <p class="testo">
+                "Sfera Ebbasta's journey in the Italian trap scene has been marked by an impressive ascent. From the very beginning, he showcased extraordinary skill in blending modern beats with intense lyrics. His official debut came in 2015 with the album 'XDVR,' followed by a series of successes that solidified his position as one of the leading figures in the Italian trap music scene.
+            </p>
+            <video src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\canzone-sfera1.mp4" controls></video>
+            </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.3 Unique Style and Successful Collaborations</h2>
+            <div class="box">
+            <p class="testo">
+                The style that characterizes Sfera's lyrics reflects urban reality through the use of innovative beats. His approach to Italian trap has influenced a generation of listeners. Additionally, the artist has forged successful collaborations with international musicians, expanding his reach and solidifying his status as a prominent figure in the global rap scene.
+            </p>
+            <video src="C:\Users\michele pagano\Desktop\compito pollio\filecomuni\fileesterni\canzone-sfera2.mp4" controls></video>            
+        </div>
+        </div>
+        <div class="paragrafi">
+            <h2 class="sottotitolo">1.4 Cultural Impact and Controversies</h2>
+            <div class="box">
+            <p class="testo">
+                Sfera Ebbasta is not only a musical icon but also a figure who has had a significant impact on Italian youth culture. The third paragraph explores how his music has contributed to shaping trends and lifestyles among the youth, while simultaneously being the subject of controversies related to issues such as the representation of street life and the language used in his songs.
+            </p>
+            <img src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/14/2020/06/geolier-sfera-shablo-buccolieri.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        function impostazioni(ClickedLine) {
+    const linea1 = document.getElementById('linea1');
+    const linea2 = document.getElementById('linea2');
+    const linea3 = document.getElementById('linea3');
+    const scelte = document.getElementById('scelte');
+    const impostazioni= document.getElementById('impostazioni')
+
+    linea1.classList.toggle('linea1-ruotata');
+    linea2.classList.toggle('linea2-ruotata');
+    linea3.classList.toggle('linea3-ruotata');
+    scelte.classList.toggle('scelte1-dopo');
+    impostazioni.classList.toggle('impostazioni1-dopo')
+}
+    </script>
+</body>
+</html>
